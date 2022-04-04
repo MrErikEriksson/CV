@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erik's Personal Site</title>
-</head>
-<body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="images/erik.png" alt="Picture of Erik"></td>
-        <td><h1>Erik Eriksson</h1>
-            <p><em>Founder and CEO of <strong><a href="https://taklaggarna.nu"></a>Takläggarna i Mälardalen AB</strong></em></p>
-            <p>I am a Webbdeveloper. I love golf and are pretty handy with fixing things that are broken.</p></td>
-        
-    </tr>
-    </table>
-    <hr>
-    <h3>Educations</h3>
-        <ul>
-            <li>Technic and natural sience at collage</li>
-            <li>Civil engineer in product and process development at Mälardalen university</li>
-        </ul>
-        <hr>
-    <h3>Work experience</h3>
-    <table cellspacing="10">
-    <thead>
-        <tr>
-            <th>Dates</th>
-            <th>Jobs</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-         <td>2005-2015</td>
-         <td>Site manager for a credit card personalization facility.</td>
-        </tr>
-        <tr><td>2015-2018</td><td>Business develope manager at a roofing firm.</td>
-        </tr>
-        <tr><td>2018-present</td><td> CEO and owner at the same roffing firm.</td></tr>
-    </tbody>
-</table>
-<hr>
-<h3>Skills</h3>
-<table cellspacing="10">
-    <tr>
-    <td>
-        <table>
-            <tr><td>HTML</td><td>⭐⭐⭐⭐⭐</td></tr>
-            <tr><td>CSS</td><td>⭐⭐⭐⭐</td></tr>
-        </table>
-    </td>
-    <td>
-        <table>
-            <tr><td>PHP</td><td>⭐⭐⭐</td></tr>
-            <tr><td>Javascript</td><td>⭐⭐</td></tr>
-        </table>
-    </td>
-    </tr>
-</table>
-<hr>
-<a href="hobbies.html">My Hobbies</a>    
-<a href="contact.html">Contact Me</a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Erik Eriksson</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico?v=2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
+      <h1>I'm Erik.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
+      <img src="images/mountain.png" alt="mountain-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-img" src="images/erik.png" alt="profile-img" />
+        <h2>Hello.</h2>
+        <p class="intro">
+          I am an Web Developer. My dayjob is beeing CEO of a roofing company. I
+          ❤ to play 🏌️‍♂️
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="computer-img" src="images/computer-screen.png" alt="" />
+          <h3>Web developement</h3>
+          <p>
+            I started learning to code when I was working my first job as a
+            production manager because I wanted to make my own tools. Over time,
+            I have gained a wealth of experience designing and developing a
+            great variety of usefull applications.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="db-img" src="images/database.png" alt="" />
+          <h3>Database architecture</h3>
+          <p>
+            Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
+            bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel
+            eu, rutrum nam.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>
+          If you think that I have what i takes to help you out with your
+          challanges.
+        </h3>
+        <br />
+        <p class="contact-message">
+          I would be glad to help! Let's talk about what your challanges are and
+          let me try to find a solution for you!
+        </p>
+        <a class="btn" href="mailto:mr.erik.eriksson@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copy-text">© 2022 Erik Eriksson.</p>
+    </div>
+  </body>
 </html>
